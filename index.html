@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ab4595cec.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>music player</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#"><img src="img.jpg.bmp" alt=""></a></li>
+            <li><a href="#">Favourites</a></li>
+        </ul>
+
+        <form class="nav-search-bar">
+            <div class="input-search">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <input class="input-field" type="text" name="search" id="search" placeholder="Search">
+                <i class="search-icon fa-solid fa-microphone"></i>
+            </div>
+            <i class="notification-icon fa-lg fa-solid fa-bell "></i>
+            <img class="profile-img" src="profile/1.png" alt="">
+        </form>
+    </nav>
+
+
+
+    <!-- Main content -->
+    <main class="main-home">
+        <section class="main-content">
+
+            <!-- featured songs -->
+            <div class="featured-songs">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/fe529a64193929.5aca8500ba9ab.jpg"
+                    alt="">
+                <img src="https://th.bing.com/th/id/OIP.HHs29JoebEyrJroYauFxkAHaHa?pid=ImgDet&rs=1" alt="">
+                <img src="https://th.bing.com/th/id/OIP.UkzU2Gn5e3dwp48gT7Ro7AHaHa?pid=ImgDet&rs=1" alt="">
+            </div>
+
+            <!-- latest Release -->
+            <div class="latest-release">
+                <h1>Latest Release</h1>
+                <div class="latest-release-list">
+                    <div class="release-list">
+                        <div class="release-list-img-box">
+                            <a href="#"><img
+                                    src="covers/1.jpg"
+                                    alt=""></a>
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <div class="release-list-title">
+                            <span>onism</span>
+                            <span>AUG 11,2017</span>
+                        </div>
+                        <div class="release-list-options">
+                            <div class="show-more-option">
+                                <button id="show-more-option-first"><i class="fa-solid fa-ellipsis"></i></button>
+                                <div class="show-more-content" id="show-more-content-first">
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-play"></i>
+                                        <p>Play Now</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-list"></i>
+                                        <p>Add To Favourites</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        <p>Get Info</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p>4:44</p>
+                        </div>
+                    </div>
+                    <div class="release-list">
+                        <div class="release-list-img-box">
+                            <a href="#"><img
+                                    src="covers/2.jpg"
+                                    alt=""></a>
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <div class="release-list-title">
+                            <span>onism</span>
+                            <span>AUG 11,2017</span>
+                        </div>
+                        <div class="release-list-options">
+                            <div class="show-more-option">
+                                <button id="show-more-option-third"><i class="fa-solid fa-ellipsis"></i></button>
+                                <div class="show-more-content" id="show-more-content-third">
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-play"></i>
+                                        <p>Play Now</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-list"></i>
+                                        <p>Add To Favourites</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        <p>Get Info</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p>4:44</p>
+                        </div>
+                    </div>
+                    <div class="release-list">
+                        <div class="release-list-img-box">
+                            <a href="#"><img
+                                    src="covers/3.jpg"
+                                    alt=""></a>
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <div class="release-list-title">
+                            <span>onism</span>
+                            <span>AUG 11,2017</span>
+                        </div>
+                        <div class="release-list-options">
+                            <div class="show-more-option">
+                                <button id="show-more-option-second"><i class="fa-solid fa-ellipsis"></i></button>
+                                <div class="show-more-content" id="show-more-content-second">
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-play"></i>
+                                        <p>Play Now</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-list"></i>
+                                        <p>Add To Favourites</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        <p>Get Info</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p>4:44</p>
+                        </div>
+                    </div>
+                    <div class="release-list">
+                        <div class="release-list-img-box">
+                            <a href="#"><img
+                                    src="covers/4.jpg"
+                                    alt=""></a>
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <div class="release-list-title">
+                            <span>onism</span>
+                            <span>AUG 11,2017</span>
+                        </div>
+                        <div class="release-list-options">
+                            <div class="show-more-option">
+                                <button id="show-more-option-forth"><i class="fa-solid fa-ellipsis"></i></button>
+                                <div class="show-more-content" id="show-more-content-forth">
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-play"></i>
+                                        <p>Play Now</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-list"></i>
+                                        <p>Add To Favourites</p>
+                                    </a>
+                                    <a href="#" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        <p>Get Info</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p>4:44</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- popular artist -->
+            <div class="popular-artist">
+                <h1>Popluar Artists</h1>
+                <div class="artists-img">
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/1.png" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/2.jpg" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/3.jpg" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/4.png" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/1.png" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                    <a class="artist-img-box" href="singleartist.html"><img src="profile/2.jpg" class="hover-images"
+                            alt=""><i class="fa-solid fa-play hover-icons"></i></a>
+                </div>
+            </div>
+
+            <!-- stations -->
+            <div class="stations">
+                <div class="station-lists">
+                    <div class="stations-logo">
+                        <img src="https://cdn.dribbble.com/users/3744610/screenshots/6673033/2222_4x.jpg" alt="">
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://th.bing.com/th/id/R.de355a14469ad3273fdd1c77817e46c1?rik=9rRhDE2FH7Ln3w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fL5rjuDt.jpg&ehk=CxcFh%2bfA9BM4DkoUvz6Q5NAGvZLpevf2h%2feYC4%2fmO8k%3d&risl=&pid=ImgRaw&r=0"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Love</span>
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://th.bing.com/th/id/OIP.OLezZP1V_tjO390wUSWARQHaH_?pid=ImgDet&rs=1" alt=""
+                                class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Retro</span>
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://th.bing.com/th/id/R.b748eb87d0e8dc2f26a17a810c6203e5?rik=7H8DVrhZEA8JFA&riu=http%3a%2f%2fshmector.com%2f_ph%2f13%2f290136013.png&ehk=aVKxsQp3XI2d1nMf%2bm4CXMAB81mkp%2bo5sQUKwHyTc%2bE%3d&risl=&pid=ImgRaw&r=0"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Chill</span>
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://th.bing.com/th/id/OIP.6c0GT8ciPGro5Mwnadz93gHaH_?pid=ImgDet&rs=1" alt=""
+                                class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Workout</span>
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://image.freepik.com/free-vector/rock-music-logo-template_1895-5.jpg" alt=""
+                                class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Rock</span>
+                    </div>
+                    <div class="station-list">
+                        <div class="station-list-img-box">
+                            <img src="https://yt3.ggpht.com/a-/AN66SAzPoBaN6sZ_7QLj3AIoWBd7wYITSjvNFvM5JQ=s900-mo-c-c0xffffffff-rj-k-no"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Pop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mood lists -->
+            <div class="mood-lists">
+                <div class="mood-list">
+                    <img class="mood-list-img"
+                        src="https://th.bing.com/th/id/OIP.5MFZ0qicAZkWuPr-uyN8QQHaEE?pid=ImgDet&rs=1" alt="">
+                    <span class="mood-list-name">Party</span>
+                </div>
+                <div class="mood-list">
+                    <img class="mood-list-img" src="https://i.ytimg.com/vi/LddIzyrgdFI/maxresdefault.jpg" alt="">
+                    <span class="mood-list-name">Electronic</span>
+                </div>
+                <div class="mood-list">
+                    <img class="mood-list-img"
+                        src="https://www.sydneycarrecyclers.com.au/wp-content/uploads/2020/01/Long-road-trip.jpg"
+                        alt="">
+                    <span class="mood-list-name">Road Trip</span>
+                </div>
+            </div>
+
+            <!-- english songs list -->
+            <div class="latest-english">
+                <h1>Latest English</h1>
+                <div class="songs-list">
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/1.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/2.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/3.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/4.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/5.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/6.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- hindi songs list -->
+            <div class="latest-hindi">
+                <h1>Latest Hindi</h1>
+                <div class="songs-list">
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/7.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/8.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/9.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/10.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/1.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                    <div class="list-song">
+                        <div class="list-song-img-box">
+                            <img src="covers/2.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </div>
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aside bar -->
+        <section class="aside-bar-home">
+            <div class="queue-menu-title">
+                <h1>Queue</h1>
+                <div class="queue-dd">
+                    <button id="queue-toggle-button">Queue <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="queue-dd-content" id="queue-toggle-content">
+                        <a rel="noopener" href="#">Playlists</a>
+                        <hr>
+                        <a rel="noopener" href="#">Favourite Songs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="queue-songs">
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>01</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/1.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>02</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/2.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>03</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/3.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>04</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/4.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>05</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/5.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>06</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/6.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>07</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/7.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>08</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/8.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>09</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/9.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="queue-list">
+                    <div class="queue-list-title">
+                        <span>10</span>
+                        <a class="queue-list-img-box" href="#"><img
+                                src="covers/10.jpg"
+                                alt="" class="hover-images">
+                            <i class="fa-solid fa-play hover-icons"></i>
+                        </a>
+
+                        <div class="queue-title">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="queue-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <div class="music-logo">
+            <img src="https://s3images.coroflot.com/user_files/individual_files/large_185642_I9gElVUJDOR_xBOQ4rU_xcC8w.jpg"
+                alt="">
+            <div class="music-player-song-title">
+                <span>Image by John Lenon</span>
+                <span>John Lennon</span>
+            </div>
+            <div class="music-player-favourite-icon">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-ban"></i>
+            </div>
+        </div>
+        <div class="music-bar">
+            <div class="music-bar-controls">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step" id="previous"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="music-bar-range">
+                <p>00:00</p>
+                <input type="range" name="" min="1" max="100" value="0" id="myProgressBar" class="seek-slider">
+                <p>05:34</p>
+            </div>
+        </div>
+        <div class="music-control">
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-sharp fa-solid fa-volume-high"></i>
+            <input type="range" name="range" min="0" value="0" max="100" id="myVolume" class="volume-slider">
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
